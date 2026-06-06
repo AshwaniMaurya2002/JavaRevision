@@ -1,6 +1,12 @@
 public class isSorted {
 
                 public static void isSortedArray(int[] arr){
+                                int i=0;
+                                
+
+                }
+
+                public static void rotateArray(int[] arr){
                                 
                 }
 
