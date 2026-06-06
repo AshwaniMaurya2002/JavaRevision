@@ -1,15 +1,15 @@
 public class isSorted {
 
-                public static void isSortedArray(int[] arr) {
-                                int i = 0;
+                public static boolean isSortedArray(int[] arr) {
 
-                                for (int j = 0; i < arr.length; i++) {
-                                                if (arr[j - 1] > arr[j]) {
+                                for (int j = 0; j < arr.length; j++) {
+                                                if (arr[j] > arr[j + 1]) {
                                                                 return false;
 
-                                                } else
-                                                                return true;
+                                                }
                                 }
+
+                                return true;
 
                 }
 
