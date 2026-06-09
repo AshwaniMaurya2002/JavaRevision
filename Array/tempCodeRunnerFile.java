@@ -1,21 +1,25 @@
-public class isSorted {
-                public static boolean isSortedArray(int[] arr) {
-                                for (int j = 0; j < arr.length; j++) {
-                                                if (arr[j] > arr[j + 1]) {
-                                                                return false;
+public class secondMax {
+
+                public static int secondMax(int[] arr) {
+                                int max = Integer.MIN_VALUE;
+                                int secMax = Integer.MIN_VALUE;
+
+                                for (int each : arr) {
+                                                if (each > max) {
+                                                                secMax = max;
+                                                                max = each;
+
                                                 }
+
                                 }
-                                return true;
-
-                }
-
-                public static void rotateArray(int[] arr) {
+                                return secMax;
 
                 }
 
                 public static void main(String[] args) {
-                                int[] arr = { 3, 4, 5, 1, 2 };
-                                System.out.println(isSortedArray(arr));
+                                int[] arr = { 4, 53, 2, 643, 63246, 23 };
+                                System.out.println(secondMax(arr));
 
                 }
+
 }
