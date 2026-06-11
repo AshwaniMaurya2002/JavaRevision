@@ -2,7 +2,6 @@ public class secondMax {
                 public static int secondMax(int[] arr) {
                                 int max = Integer.MIN_VALUE;
                                 int secMax = Integer.MIN_VALUE;
-
                                 for (int each : arr) {
                                                 if (each > max) {
                                                                 secMax = max;
