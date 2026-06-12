@@ -7,7 +7,7 @@ public class secondMax {
                                                                 secMax = max;
                                                                 max = each;
 
-                                                }
+                                        }
 
                                 }
                                 return secMax;
