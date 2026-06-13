@@ -1,8 +1,5 @@
-public class UpcastingDriver extends  Upcasting {
-
-
-                
-                
+public class UpcastingDriver {
 
                 
+
 }
